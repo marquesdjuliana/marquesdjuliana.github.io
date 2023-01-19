@@ -1,23 +1,23 @@
 
 
   body {
-    background-color: #252323;
+    background-color: #6C757D;
     font-family: "Roboto", sans-serif ;
     color: #F5F1ED;
     padding: 3%;
   }
   a {
     text-decoration: none;
-    color: #A99985
+    color: #212529;
 
   }
   
   a:hover {
-    background-color: #DAD2BC;
+    background-color: #F8F9FA;
   }
 
   a:active {
-    background-color: #252323;
+    background-color: #A99985;
   }
   
   .loc {
@@ -28,12 +28,10 @@
     text-align: center;   
     color: #252323;
     background-color: #E9ECEF;
-    border: 3px solid #F8F9FA;
-    border-radius: 60px;
-    height: 500x;
-    top: 30%;
-    
-  
+    border: 4px solid #F8F9FA;
+    border-radius: 100px;
+    padding: 1%;
+
   }
 
   img {
