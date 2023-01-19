@@ -30,11 +30,7 @@
   a:active {
     background-color: #DAD2BC;
   }
-  .main-container {
-    background-color: #ADB5BD;
-    border-radius: 10%;
-    padding: 5%;
-  }
+  
   .descricao {
     text-align: center;
     color: black;
@@ -42,4 +38,15 @@
     background-color: #F8F9FA;
     border-radius: 100px;
     padding: 1%;
+  }
+
+  article {
+    padding: 10px;
+    border:10px solid #6C757D;
+    height: 500px;
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-top: 100px;
   }
