@@ -1,32 +1,45 @@
 
 
   body {
-    background-color: rgb(236, 242, 243);
-    font-family: monospace, Courier
+    background-color: #252323;
+    font-family: "Roboto", sans-serif ;
+    color: #F5F1ED;
   }
   a {
     text-decoration: none;
+    color: #A99985
+
   }
+  a:hover {
+    background-color: #DAD2BC;
+  }
+
+  a:active {
+    background-color: #252323;
+  }
+
   h1 {
-    font-family: Courier, monospace;
+    
     text-align: left;
   }
-  .descricao {
-    font-family: Courier, monospace;
-    text-align: justify;
 
-  }
-
-  .resido {
-    font-weight: bold;
+  .loc {
     text-align: right;
   }
 
-  .logica, .qualidade,.js, .sql {
+  .descricao {
+    background-color: #DAD2BC ;
+    color: #252323;
+    border-radius: 100px;
+
+  }
+
+  .logica, .qualidade,.ub, .hc {
     font-style:italic;
     font-size: 15px;
   }
   
   img {
   border-radius: 50%;
+   
   }
