@@ -6,24 +6,10 @@
     color: #F5F1ED;
     padding: 3%;
   }
-  a {
-    text-decoration: none;
-    color: #212529;
 
-  }
-  
-  a:hover {
-    background-color: #F8F9FA;
-  }
-
-  a:active {
-    background-color: #A99985;
-  }
-  
   .loc {
     float: right;
   }
-
   .descricao {
     text-align: center;   
     color: #252323;
@@ -43,6 +29,15 @@
     font-style:italic;
     font-size: 10px;
    
+  }
+
+  a {
+    color:#F5F1ED;
+    text-decoration: none;
+  }
+  
+  .footer-container, .header-container {
+    background-color: #252323;
   }
   
   
