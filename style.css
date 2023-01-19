@@ -47,6 +47,15 @@
     margin-top: 20px;
   }
 
-  footer {
+  .footer-container {
     margin-top: 100px;
+    clear:both;
+    text-align: center;
+    padding-top: 60px;
   }
+
+.skill {
+  padding: 30px 70px 90px 70px;
+  width: 80%;
+  margin: auto;
+}
