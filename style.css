@@ -1,0 +1,50 @@
+
+
+  body {
+    background-color: #252323;
+    font-family: "Roboto", sans-serif ;
+    color: #F5F1ED;
+    padding: 3%;
+  }
+  a {
+    text-decoration: none;
+    color: #A99985
+
+  }
+  
+  a:hover {
+    background-color: #DAD2BC;
+  }
+
+  a:active {
+    background-color: #252323;
+  }
+  
+  .loc {
+    float: right;
+  }
+
+  .descricao {
+    text-align: center;   
+    color: #252323;
+    background-color: #E9ECEF;
+    border: 3px solid #F8F9FA;
+    border-radius: 60px;
+    height: 500x;
+    top: 30%;
+    
+  
+  }
+
+  img {
+    border-radius: 50%;
+    float: right;
+  }
+
+  .logica, .qualidade,.ub, .hc {
+    font-style:italic;
+    font-size: 15px;
+   
+  }
+  
+  

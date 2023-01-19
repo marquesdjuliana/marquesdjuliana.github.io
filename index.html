@@ -4,53 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio Web JDM</title>
-  <style>
-    body {
-      background-color: rgb(236, 242, 243);
-      font-family: monospace, Courier;
-    }
-    h1 {
-      font-family: Courier, monospace;
-      text-align: left;
-    }
-    .descricao {
-      font-family: Courier, monospace;
-      text-align: justify;
-  
-    }
-
-    .resido {
-      font-weight: bold;
-      text-align: right;
-    }
-
-    .logica, .qualidade,.js, .sql {
-      font-style:italic;
-      font-size: 15px;
-    }
-    
-    img {
-    border-radius: 50%;
-    }
-  </style>
+  <title>Portfólio JDM</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <a href="#sobre-ju">Sobre Ju</a>
   <a href="https://blog.betrybe.com/page/2/" target="_blank">Gosto de acompanhar</a>
   
-  <h1>Juliana Duarte Marques</h1>
-  <img src="I.jpg" alt="Essa sou e uma clássica camiseta preta" width="150px" id="foto">
- 
-  <p class="descricao">Sou nascida e bem criada em uma das capitais do nosso centro-oeste, amo o cerrado, sou fã da literatura das mulheres da região e aprecio uma boa <em>receitinha</em> com pequi. Dos meus exatos 29 anos de idade, mais de 10 foram dedicados a lecionar-coordenador e contribuir para o ensino de História em escolas públicas. Atualmente, com o objetivo de vivencia novos ambientes educacionais - que me acresça experiência e conhecimento - entrei em um curso de desenvolvimento web na <strong>Trybe</strong>. Quem sabe, após concluir esse desafio de aprender essa nova e desafiado área que é a Tecnologia, continurarei a formação de cidadãos conscientes historicamente, humanos e protagonistas de seu futuro.  </p>
-  <p class="resido">Goiânia-GO
+
+  <div class="jdm"><h1>Juliana Duarte Marques</h1></div>
   
+    <div class="img">
+      <img src="I.jpg" alt="Essa sou e uma clássica camiseta preta" width="150px" id="foto">
+    </div>
+     <div class="descricao">
+      <p>Sou nascida e bem criada em uma das capitais do nosso centro-oeste, amo o cerrado, sou fã da literatura das mulheres da região e aprecio uma boa <em>receitinha</em> com pequi. Dos meus exatos 29 anos de vida, mais de 10 foram dedicados a lecionar-coordenador e contribuir para o ensino de História em escolas públicas. Atualmente, com o objetivo de vivencia novos ambientes educacionais - que me acresça experiência e conhecimento - entrei em um curso de desenvolvimento web na <strong>Trybe</strong>. Quem sabe, após concluir esse desafio de aprender essa nova e desafiado área que é a Tecnologia, continurarei a formação de cidadãos conscientes historicamente, humanos e protagonistas de seu futuro.  </p>
+     </div>
+     <div class="loc">
+      <p>Goiânia-GO
+     </div>   
+
+  </div>
+    
 
   <h2>Algumas habilidades:</h2>
   <ul>
-    <li>Boa comunicação</li>
-    <li>Produção de Artigo</li>
+    <li>Comunicação</li>
+    <li>Gestão de tempo</li>
 
   </ul>
 
@@ -60,12 +44,15 @@
 
   <li class="logica">Lógica de programação</li>
   <li class="qualidade">Qualidade de código</li>
-  <li class="js">JavaScript</li>
-  <li class="sql">SQL</li>
+  <li class="ub">Unix&Bash</li>
+  <li class="hc">HTML e CSS</li>
 
  </ul>
 
-  <a href="I.jpg">Minha foto</a>
+
+ <footer>
+  <a href="I.jpg" class="f">Minha foto</a>
   <a href="https://www.cartacapital.com.br/carta-capital/a-luta-pelo-bom-senso/" target="_blank">Vale ler!</a>
+</footer>
 </body>
 </html>
