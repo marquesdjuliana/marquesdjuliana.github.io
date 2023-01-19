@@ -1,6 +1,11 @@
-body {
+
+
+  body {
     background-color: rgb(236, 242, 243);
-    font-family: monospace, Courier;
+    font-family: monospace, Courier
+  }
+  a {
+    text-decoration: none;
   }
   h1 {
     font-family: Courier, monospace;
