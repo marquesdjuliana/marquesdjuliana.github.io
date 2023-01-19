@@ -7,9 +7,6 @@
     padding: 3%;
   }
 
-  .loc {
-    float: right;
-  }
   .descricao {
     text-align: center;   
     color: #252323;
@@ -34,10 +31,12 @@
   a {
     color:#F5F1ED;
     text-decoration: none;
+    
   }
-  
-  .footer-container, .header-container {
-    padding:;
+  a:hover {
+    background-color: #495057;
   }
-  
+  a:active {
+    background-color: #DAD2BC;
+  }
   
